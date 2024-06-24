@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    margin: 10px;
+    padding: 10px 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;  
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    line-height: 1em;
+    
+}
+
+
+header{
+    display: flex; 
+}
+nav{
+    position: relative;
+    margin: auto;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+header nav ul li{
+    padding: 2px 55px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+header nav ul li:last-child{
+    border-right: 0;
+}
+
+.text{
+    position: relative;
+    left: 350px;
+}
+.bold-text{
+    width: 19%;
+    line-height: 3.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold-text h2{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+.bold-text h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 0.9em;
+}
+.normal-text{
+    width: 18%;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.6em;
+}
+
+.pic{
+    position: absolute;
+   left: 300px;
+   top: -10px;
+}
+.pic img{
+    width: 95%;
+}
+
+.tree1, .tree2, .tree3{
+    width: 10%;
+    height: 14%;
+    position: fixed;
+}
+
+.tree1{
+    bottom: 0px;
+    left: 50px;
+}
+.tree2{
+    bottom: 0px;
+    right: 300px;
+}
+.tree3{
+    bottom: 0px;
+    right: 100px;
+}
