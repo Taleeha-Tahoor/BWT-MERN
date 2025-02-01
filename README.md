@@ -7,4 +7,4 @@ Link of Week 3 Project: https://tally-counter-theta.vercel.app/
 
 Link of Week 6 Project: https://youtube-clone-xi-sooty.vercel.app/
 
-Link of Week 7 Project: https://snapgram-two-smoky.vercel.app/sign-in
+Link of Week 7 Project: https://snapgram-two-smoky.vercel.app/
